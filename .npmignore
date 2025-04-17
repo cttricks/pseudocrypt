@@ -1,0 +1,19 @@
+# Ignore dev and build configs
+rollup.config.js
+*.log
+
+# Ignore local test files
+.test/
+
+# Ignore everything not needed in the final npm package
+.gitignore
+*.md
+example/
+examples/
+
+# Ignore dev-specific files
+.vscode/
+.idea/
+
+# Ignore node_modules (shouldn't be included anyway)
+node_modules/
