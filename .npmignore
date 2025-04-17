@@ -10,6 +10,7 @@ rollup.config.js
 *.md
 example/
 examples/
+public/
 
 # Ignore dev-specific files
 .vscode/
@@ -17,3 +18,4 @@ examples/
 
 # Ignore node_modules (shouldn't be included anyway)
 node_modules/
+dist/
