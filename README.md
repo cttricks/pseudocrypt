@@ -10,8 +10,16 @@ Fast-forward to today, while building a Node + Express app, I wanted that same f
 
 ## 📦 Installation
 
+To install PseudoCrypt via npm and use it in your Node.js projects:
+
 ```bash
 npm i @cttricks/pseudocrypt
+```
+
+If you're building a front-end application or prefer to load PseudoCrypt directly in the browser, you can include it from the jsdelivr cdn.
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/cttricks/pseudocrypt@v1.0.0/dist/pseudocrypt.min.js"></script>
 ```
 
 ## ⚙️ Usage
