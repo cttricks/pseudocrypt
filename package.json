@@ -1,0 +1,41 @@
+{
+  "name": "@cttricks/pseudocrypt",
+  "version": "1.0.0",
+  "description": "Generate short, reversible, pseudo-unique hashes for numeric values. Inspired by KevBurnsJr's original PHP implementation.",
+  "main": "index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./index.js"
+  },
+  "scripts": {
+    "test": "node .test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cttricks/pseudocrypt.git"
+  },
+  "keywords": [
+    "hash",
+    "pseudo",
+    "pseudocrypt",
+    "short-id",
+    "obfuscation",
+    "encode",
+    "decode",
+    "base62",
+    "reversible-hash",
+    "friendly-ids"
+  ],
+  "author": {
+    "name": "Tanish Raj",
+    "url": "https://github.com/cttricks"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cttricks/pseudocrypt/issues"
+  },
+  "homepage": "https://github.com/cttricks/pseudocrypt#readme",
+  "engines": {
+    "node": ">=12"
+  }
+}
